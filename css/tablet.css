@@ -1,0 +1,225 @@
+/* 768-481 */
+
+@media (max-width: 745px) {
+
+    /* header */
+    header {
+        padding-inline: 24px;
+    }
+
+    /* home-section1 */
+    .home-section1 {
+        height: 480px;
+        padding-top: 32px;
+    }
+
+    .most_popular_section_article {
+        padding-left: 24px;
+    }
+
+    /* most_popular_section */
+    .most_popular_section {
+        padding: 48px 0 48px 24px;
+    }
+
+    /* footer  */
+
+    footer {
+        column-gap: 66px;
+    }
+
+    /* *************** catalog page  ****************/
+
+    /* guitar section  */
+
+    .article_gone {
+        display: none;
+    }
+
+    .catalog_grid {
+        /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: 1fr;
+    }
+
+    .catalog_section {
+        padding: 48px 32px;
+    }
+
+    /* pagination_section */
+
+    .pagination_section {
+        padding: 64px 175px;
+    }
+
+    .pagination_section_btn_left,
+    .pagination_section_btn_right {
+        font-size: 0;
+        padding: 0;
+        width: 40px;
+        justify-content: center;
+    }
+
+    .pagination_section_btn_left img,
+    .pagination_section_btn_right img {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* *************** catalog page  ****************/
+    main {
+        /* padding-block : 24px; */
+        padding: 80px 40px;
+        /* height: 647px; */
+    }
+
+    /* main_section */
+    .main_section {
+        flex-direction: column;
+        row-gap: 36px;
+        padding-block: 16px;
+    }
+
+    .form_section,
+    .map_section {
+        width: 100%;
+    }
+
+    .submit_button {
+        width: 100%;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 481px) {
+
+    /* header */
+    header {
+        padding: 28px 20px;
+    }
+
+    .guitar-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-buttons {
+        column-gap: 16px;
+    }
+
+    .header-btn {
+        width: 32px;
+        height: 32px;
+    }
+
+    /* home-section1 */
+    .home-section1-link {
+        column-gap: 16px;
+    }
+
+    .home-section1-link-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* most_popular_section */
+    .most_popular_section {
+        padding: 32px 0 32px 20px;
+    }
+
+    /* footer  */
+
+    footer {
+        padding-block: 32px;
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social_list {
+        justify-content: center;
+    }
+
+    /* *************** catalog page  ****************/
+
+    /* guitar section  */
+
+    .article_gone {
+        display: none;
+    }
+
+    .contact_section_p {
+        display: none;
+    }
+
+    .catalog_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .catalog_section {
+        padding: 32px 20px;
+    }
+
+    /* pagination_section */
+
+    .pagination_section {
+        padding: 48px 118px;
+    }
+
+    .pagination_section_btn_left,
+    .pagination_section_btn_right {
+        font-size: 0;
+        padding: 0;
+        width: 40px;
+        justify-content: center;
+    }
+
+    .pagination_section_btn_left img,
+    .pagination_section_btn_right img {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    /* *************** contact page  ****************/
+
+
+    /* main_section */
+    .main_section {
+        flex-direction: column;
+        row-gap: 36px;
+        padding-inline: 16px;
+    }
+
+    .form_section,
+    .map_section {
+        width: 100%;
+    }
+
+    .form_section_title {
+        margin-bottom: 24px;
+    }
+
+    .form_inputs,
+    .textarea_box {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+
+    /* map section  */
+    .map_section {
+        row-gap: 24px;
+    }
+
+}
