@@ -1,0 +1,133 @@
+/* 480-320 */
+@media (max-width: 321px) {
+
+    /* header */
+    header {
+        padding-inline: 8px;
+    }
+
+    /* home-section1 */
+    .home-section1 {
+        height: 320px;
+    }
+
+    /* most_popular_section */
+    .most_popular_section {
+        padding: 32px 0 32px 8px;
+    }
+
+    /* footer  */
+
+    footer {
+        padding-block: 32px;
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social_list {
+        justify-content: center;
+    }
+
+    /* *************** catalog page  ****************/
+
+    .contact_section_p {
+        display: none;
+    }
+
+    /* guitar section  */
+
+    .article_gone {
+        display: none;
+    }
+
+    .catalog_section {
+        padding: 40px 12px;
+    }
+
+    /* pagination_section */
+
+    .pagination_section {
+        padding: 64px 175px;
+    }
+
+    .pagination_section_btn_left,
+    .pagination_section_btn_right {
+        font-size: 0;
+        /* ტექსტი ქრება */
+        padding: 0;
+        width: 40px;
+        justify-content: center;
+    }
+
+    .pagination_section_btn_left img,
+    .pagination_section_btn_right img {
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+    /* *************** contact page  ****************/
+
+    /* main section  */
+
+    main {
+        /* height: 808px; */
+        padding: 48px 8px;
+        height: auto;
+    }
+
+    .main_section {
+        flex-direction: column;
+        width: 100%;
+        /* padding: 24px 16px;  */
+        gap: 40px;
+        height: auto;
+    }
+
+
+
+
+    /* form_section  */
+    form {
+        row-gap: 24px;
+    }
+
+    /*   */
+
+    .form_section_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .form_inputs {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .submit_button {
+        width: 100%;
+    }
+
+    /* map section  */
+
+    .map_section {
+        flex-direction: column;
+        row-gap: 24px;
+        padding: 0;
+    }
+
+    address {
+        justify-content: center;
+        column-gap: 42px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+}
